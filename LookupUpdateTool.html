@@ -1,0 +1,30 @@
+<script type="text/javascript"
+    src="https://hhhhteams.sharepoint.com/sites/HHHHTeams/Style%20Library/js/angular/LookupTool/LookupUpdateTool.js"></script>
+<script src="https://hhhhteams.sharepoint.com/sites/HHHHTeams/Style%20Library/js/angular/Services/alasql.min.js"></script>
+
+<div ng-controller="LookupToolController">
+    <div class="tab-content bdrbox panel-heading">
+        <div class="row mt-10 mb-10">
+            <div class="col-sm-7">
+                <label>Site Url</label>
+                <input type="text" ng-model="siteUrl" placeholder="Enter Site Url" class="form-control" />
+            </div>
+            <div class="col-sm-4" style="width: 32%;">
+                <label>List Id</label>
+                <input type="text" ng-model="listId" placeholder="Enter List Id" class="form-control" />
+            </div>
+            <a class="btn btn-primary" style="margin-top: 13px;" ng-click="ExportExcel()">Export Excel</a>
+        </div>
+        <!-- <div class="row mt-10 mb-10">
+            <div class="col-sm-3 PadR0 mt-10">
+
+                <input type="file" id="excelfile" class="full_width">
+            </div>
+            <div class="col-sm-2 mt-5">
+                <a class="btn btn-primary" ng-click="ImportMasterTask()">Import Excel</a>
+            </div>
+        </div> -->
+
+
+    </div>
+</div>
